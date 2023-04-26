@@ -36,9 +36,10 @@
 
 <script setup lang="ts">
 import axios from 'axios';
-import { defineProps } from 'vue'
+//@ts-ignore
 import { ElMessage } from 'element-plus';
 import 'element-plus/theme-chalk/el-message-box.css'
+import { defineProps } from 'vue'
 import { ref } from 'vue';
 import moment from 'moment'
 

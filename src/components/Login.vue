@@ -21,6 +21,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
+//@ts-ignore
 import { ElMessage } from 'element-plus';
 import 'element-plus/theme-chalk/el-message-box.css'
 import Message from './Message.vue'
